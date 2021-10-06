@@ -42,7 +42,7 @@ public class ObsidianToLava extends JavaPlugin implements Listener {
         }
 
         final Player player = event.getPlayer();
-        final PlayerInventory inventory = player.getInventory();;
+        final PlayerInventory inventory = player.getInventory();
         final ItemStack itemInHand = inventory.getItemInMainHand();
 
         if (itemInHand == null || itemInHand.getType() != Material.BUCKET) {
